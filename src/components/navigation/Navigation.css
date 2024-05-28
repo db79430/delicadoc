@@ -1,0 +1,27 @@
+.img-navbar {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    max-width: 1440px;
+}
+
+.logo-delicados,
+.logo-burgerking {
+    padding-top: 28px;
+    padding-left: 18px;
+}
+
+
+.menu-word {
+    padding-top: 48px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.button-word {
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+
+

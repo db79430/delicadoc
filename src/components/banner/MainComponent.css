@@ -1,0 +1,177 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container {
+    display: flex;
+}
+.text_under {
+    position: absolute;
+    width: 265px;
+    height: 42px;
+    color: #341700;
+    font-size: 20px;
+    left: 10%;
+    top: 800px;
+    z-index: 2;
+}
+.logo-container {
+    display: block;
+    position: absolute;
+    z-index: 4;
+    top: 800px;
+    left: 40%;
+}
+.logo {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+.image-vector {
+    display: block;
+    position: relative;
+    left: -10%;
+    width: 1000px;
+    height: 1300px;
+    z-index: 0;
+
+}
+.chips {
+    display: block;
+    width: 60%;
+    position: absolute;
+    top: 15%;
+    z-index: 1;
+}
+
+.shadow {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    width: 90%;
+    left: 1%;
+    top: 32%
+}
+
+.substract {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 10%;
+    width: 75%;
+    top: 90%
+}
+
+.airoplane-img {
+    display: block;
+    position: absolute;
+    width: 300px;
+    z-index: 5;
+    left: 66%;
+    top: 120%;
+}
+
+.mexico-img {
+    display: block;
+    position: absolute;
+    z-index: 4;
+    top: 100%;
+    left: 80%;
+}
+
+.table-main {
+    display: flex;
+    justify-content: space-between;
+}
+.prize-container {
+    z-index: 6;
+    width: 350px;
+    position: relative;
+
+}
+.prize-text {
+    color: #66722D;
+    font-size: 22px;
+    padding: 2px;
+    z-index: 7;
+}
+
+.substract-container {
+}
+
+.prize-item {
+    font-size: 42px;
+    padding: 2px;
+}
+
+.chips-image {
+    object-fit: cover;
+    z-Index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+.chips-table {
+
+}
+
+.register-check {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 16px;
+    width: 426px;
+    height: 66px;
+    border-radius: 0 15px 15px 15px;
+    box-shadow: -2px 4px 20px 0 rgba(255, 255, 255, 0.5),0 4px 90px 0 rgb(254, 208, 1);
+    background: rgb(109, 113, 46);
+}
+
+.register-check p {
+    margin-left: 16px;
+
+}
+
+.icon-image {
+    width: 48px;
+    margin-left: 16px;
+    height: 46px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 0px 15px 15px 15px;
+    box-shadow: 0px 4px 14.7px 0px rgba(123, 70, 12, 0.4);
+    background: rgb(255, 255, 255);
+}
+
+.button-web {
+    margin-left: 16px;
+}
+
+.burger-container {
+    margin-top: 12px;
+}
+
+.burger-container h1 {
+    font-family: "Flame Bold", sans-serif;
+    font-size: 40px;
+}
+
+.register-text {
+    font-size: 18px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.winprizes-container {
+    /*display: flex;*/
+    /*left: 0;*/
+    /*top: 50%;*/
+    /*z-index: 7;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}

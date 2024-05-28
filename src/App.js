@@ -1,25 +1,28 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import {Navigation} from "./components/navigation/Navigation";
+import {MainComponent} from "./components/banner/MainComponent";
+import {Play} from "./components/play/Play";
+import {Winners} from "./components/winners/Winners";
+import {Shops} from "./components/shops/Shops";
+import {QuestionAnswer} from "./components/question/QuestionAnswer";
+import {Footer} from "./components/footer/Footer";
+import Example from "./components/auth/Auth";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="app-wrapper">
+            <Example/>
+            <Navigation/>
+            <MainComponent/>
+            <Play/>
+            <Winners/>
+            <Shops/>
+            <QuestionAnswer/>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;
