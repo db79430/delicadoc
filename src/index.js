@@ -10,7 +10,7 @@ import store from '../src/redux/store/store';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-    <BrowserRouter basename="https://db79430.github.io/delicadoc/">
+    <BrowserRouter basename="https://db79430.github.io/delicadoc">
         <Provider store={store}>
             <App/>
         </Provider>
